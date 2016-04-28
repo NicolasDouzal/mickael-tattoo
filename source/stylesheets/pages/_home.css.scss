@@ -1,0 +1,92 @@
+
+body {
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 17px;
+  background-image: url(../image/fond2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+
+.spacer {
+  height: 80px;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: #333333;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  line-height: 20px;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:active,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: #aaaaaa;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand:focus,{
+  color: #aaaaaa;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: 'Economica', sans-serif;
+}
+
+.navbar-brand {padding: 5px 15px;
+}
+
+.dropdown-menu {
+  background-color: rgba(255,255,255, 0.1);
+}
+
+.navbar-form {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.dropdown-menu>li>a {
+  color: #000000;
+  text-shadow: 1px 1px 5px rgba(255,255,255, 0.5);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: rgba(0,0,0, 0.8);
+  text-shadow: 0px 0px 0px rgba(255,255,255, 0);
+  color: #efefef; 
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+.header {color: #ffffff;
+    padding-top: 350px;}
+
+
+
