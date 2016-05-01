@@ -3,17 +3,22 @@ title: Mickael Taguet Tattoo contact
 ---
 
 <div class="container">
-	<div class="row text-center">
+	<div class="row text">
 		<div class="col-xs-12 col-sm-6">
-			<form>
-			  <div class="form-group">
-			    <input type="email" class="form-control" id="formemail" placeholder="Email">
-			  </div>
-			  <div class="form-group">
-			    <input type="Text" class="form-control" id="formmessage" placeholder="Entrez votre message">
-			  </div>
-			  <button type="submit" class="btn btn-primary">Submit</button>
+			<form id="contact" method="post" action="traitement_formulaire.php">
+				<fieldset><legend>Vos coordonnées</legend>
+					<p><label for="nom">Nom :</label><input class="form-control" type="text" id="nom" name="nom" tabindex="1" /></p>
+					<p><label for="email">Email :</label><input class="form-control" type="text" id="email" name="email" tabindex="2" /></p>
+				</fieldset>
+			 
+				<fieldset><legend>Votre message :</legend>
+					<p><label for="objet">Objet :</label><input class="form-control" type="text" id="objet" name="objet" tabindex="3" /></p>
+					<textarea class="form-control" id="message" name="message" tabindex="4" rows="10" placeholder="Message"></textarea>
+				</fieldset>
+			 
+				<button type="submit" name="envoi" class="btn btn-primary" />Submit</button>
 			</form>
+
 		</div>
 		<div class="col-xs-12 col-sm-6">
 			<img src="http://placehold.it/600x400" alt="">
