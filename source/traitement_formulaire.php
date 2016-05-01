@@ -1,4 +1,3 @@
-
 <?php
 /*
 	********************************************************************************************
@@ -6,7 +5,7 @@
 	********************************************************************************************
 */
 // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-$destinataire = 'nicolas.douzal@gmail.com';
+$destinataire = 'moi@moi.tld';
  
 // copie ? (envoie une copie au visiteur)
 $copie = 'oui'; // 'oui' ou 'non'
@@ -108,7 +107,8 @@ else
  
 		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1)))
 		{
-			echo '<p>'.$message_envoye.'</p>';
+			echo "<script type='text/javascript'>document.location.replace('index.html');</script>";
+;
 		}
 		else
 		{
